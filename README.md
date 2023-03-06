@@ -10,9 +10,9 @@ Inforratica, é uma loja de assistência técnica centrada em computadores e not
 
 Inforratica, é uma loja de assistência técnica centrada em computadores e notebooks, a empresa já existe a algum tempo mas como vem crescendo ultimamente, precisaram de um sistema de orçamentos, são três funcionários e o dono (um(a) atendente e três técnicos).
 
-O cliente vai até o balcão onde está o(a) atendente, juntamente com a sua máquina, descreve o problema, o(a) atendente vai escrever os dados informados no Excel(Planilhas), também será necessário um cadastro, onde o cliente falará o seu nome, email, número de celular, cpf, endereço (complemento) onde também será escrito no excel.
+O cliente vai até o balcão onde está o(a) atendente, juntamente com a sua máquina, descreve o problema, o(a) atendente vai escrever os dados informados em um papel, também será necessário um cadastro, onde o cliente falará o seu nome, email, número de celular, cpf, endereço (complemento) onde também será escrito no papel.
 
-Após o cadastro realizado pelo(a) atendente, será consultado o técnico para identificar as peças do computador/notebook para que não haja nenhum desentendimento. O nome ou modelo das peças vai ser descrito no Excel.
+Após o cadastro realizado pelo(a) atendente, será consultado o técnico para identificar as peças do computador/notebook para que não haja nenhum desentendimento. O nome ou modelo das peças vai ser descrito no papel.
 
 Depois que o O.S estiver concluído, o cliente vai assinar ela(colocar na proposta), e então, vai começar o processo de reparo, ao identificar o problema vai repassar o orçamento para o cliente. 
 
