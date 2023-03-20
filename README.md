@@ -4,7 +4,7 @@ Loja de informatica, pois achamos o modelo o mais coerente com a demanda do merc
 
 ## 3- Ordem de Serviço (O.S.)
 
-
+Inforratica é uma loja de assistência técnica que recentemente vem se expandindo. Com esse crescimento, criou-se uma necessidade de um software que automatize as O.S. O sistema deverá auxiliar nos orçamentos, peças, retirada dos equipamentos e relatórios.
 
 # Situação Problema
 
