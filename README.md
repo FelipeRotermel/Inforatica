@@ -36,16 +36,20 @@ Isso tornaria o processo mais eficiente, eliminando a necessidade de papel e tor
 
 # Regras de negócio
 
-* RN01 - Início do atendimento: Para iniciar um atendimento no balcão, o cliente deverá fornecer dados pessoais para o cadastro na ordem de serviço, incluindo nome, telefone e endereço de e-mail.
+* **RN01 - Início do atendimento:** Para iniciar um atendimento no balcão, o cliente deverá fornecer dados pessoais.
+
+RN01 - Visita domiciliar: taxa de R$ 50,00 para visitas domiciliares.
 
 * RN02 - Inserção de dados na O.S.: O(a) atendente deverá anotar o problema relatado pelo cliente e descrever os dados do equipamento, incluindo marca e modelo.
 
 * RN03 - Identificação das peças: O técnico deverá identificar as peças do computador/notebook e descrever o nome ou modelo das peças na ordem de serviço.
 
-* RN04 - Assinatura do cliente: Após a conclusão da ordem de serviço, o cliente deverá assiná-la em um papel impresso e o reparo do equipamento poderá ser iniciado.
+* RN04 - Assinatura do cliente: Após a conclusão da ordem de serviço, o cliente deverá assiná-lo em um papel impresso.
 
 * RN05 - Atualização do andamento: O status da ordem de serviço deverá ser atualizado pelos técnicos durante todo o processo de reparo, permitindo que o cliente acompanhe o status da reparação em tempo real, recebendo as informações via “Whatsapp”, “Email” ou via site.
 
+RN - Finalização da O.S.
+
 * RN06 - Garantia: A garantia será de 3 meses para a troca da peça ou revisão do problema.
 
-* RN07 - Relatório semanal: O software deverá gerar um relatório semanal para o dono da loja, contendo informações como gastos, lucro líquido, máquinas esperando peças, máquinas com reparo em andamento, máquinas esperando retirada e máquinas em garantia.
+* RN07 - Relatório semanal: Um relatório semanal será gerado para o dono da loja, contendo informações como gastos, lucro líquido, máquinas esperando peças, máquinas com reparo em andamento, máquinas esperando retirada e máquinas em garantia.
