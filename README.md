@@ -57,3 +57,31 @@ Isso tornaria o processo mais eficiente, eliminando a necessidade de papel e tor
 * **RN10 - Garantia:** A garantia será de 3 meses para a troca da peça ou revisão do problema.
 
 * **RN11 - Relatório semanal:** Um relatório semanal será gerado para o dono da loja, contendo informações como gastos, lucro líquido, máquinas esperando peças, máquinas com reparo em andamento, máquinas esperando retirada e máquinas em garantia.
+
+# Requisitos Funcionais
+
+## Entradas
+
+* **RF01 - Coleta de Dados Pessoais:** O sistema deve permitir a coleta dos dados pessoais do cliente, incluindo nome completo, telefone e endereço, a fim de criar uma ordem de serviço. Dados necessários: nome completo, telefone e endereço. Usuários: atendente.
+
+* **RF03 - Inserção de Dados na O.S.:** O sistema deve permitir a inserção dos dados do problema relatado pelo cliente. Dados necessários: descrição do problema. Usuários: atendente.
+
+* **RF04 - Identificação das Peças:** O sistema deve permitir que o técnico identifique e descreva as peças do computador/notebook na ordem de serviço. Dados necessários: nome ou modelo das peças. Usuários: técnicos.
+
+* **RF05 - Assinatura do Cliente:** O sistema deve permitir que o cliente assine a ordem de serviço em papel impresso após a conclusão da O.S. Dados necessários: assinatura do cliente. Usuários: clientes.
+
+* **RF06 - Cancelamento do Orçamento:** O sistema deve permitir que o cliente cancele o orçamento em até 24 horas após a emissão, e que possa buscar o equipamento reparado na loja. Dados necessários: solicitação de cancelamento. Usuários: clientes.
+
+## Processos
+
+* **RF02 - Visita Domiciliar:** O sistema deve permitir a cobrança de uma taxa de R$ 50,00 para visita domiciliar em caso de recusa do orçamento pelo cliente. Dados necessários: valor da taxa. Usuários: técnicos.
+
+* **RF08 - Atualização do Andamento:** O sistema deve permitir que os técnicos atualizem o status da ordem de serviço durante todo o processo de reparo, e que os clientes recebam as informações via WhatsApp, email ou site. Dados necessários: atualização do status da ordem de serviço. Usuários: técnicos.
+
+* **RF09 - Finalização da O.S.:** O sistema deve notificar o cliente quando o reparo estiver concluído, e informar o prazo para retirada do equipamento na loja. Dados necessários: notificação da finalização do reparo e prazo para retirada. Usuários: atendentes e clientes.
+
+## Saídas
+
+* **RF10 - Garantia:** O sistema deve estabelecer uma garantia de 3 meses para a troca da peça ou revisão do problema. Dados necessários: prazo da garantia. Usuários: atendentes e clientes.
+
+* **RF11 - Relatório Semanal:** O sistema deve gerar um relatório semanal para o dono da loja, contendo informações como gastos, lucro líquido, máquinas esperando peças, máquinas com reparo em andamento, máquinas esperando retirada e máquinas em garantia. Dados necessários: informações sobre gastos, lucro líquido, máquinas em diferentes estágios do processo e em garantia. Usuários: dono da loja.
