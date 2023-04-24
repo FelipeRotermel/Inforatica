@@ -85,3 +85,23 @@ Isso tornaria o processo mais eficiente, eliminando a necessidade de papel e tor
 * **RF10 - Garantia:** O sistema deve estabelecer uma garantia de 3 meses para a troca da peça ou revisão do problema. Dados necessários: prazo da garantia. Usuários: atendentes e clientes.
 
 * **RF11 - Relatório Semanal:** O sistema deve gerar um relatório semanal para o dono da loja, contendo informações como gastos, lucro líquido, máquinas esperando peças, máquinas com reparo em andamento, máquinas esperando retirada e máquinas em garantia. Dados necessários: informações sobre gastos, lucro líquido, máquinas em diferentes estágios do processo e em garantia. Usuários: dono da loja.
+
+# Requisitos Não Funcionais
+
+* **RNF01 - Segurança:** O sistema deve ser seguro, com controle de acesso para garantir que as informações dos clientes estejam protegidas.
+
+* **RNF02 - Escalabilidade:** O sistema deve ser escalável para permitir o aumento do número de ordens de serviço à medida que a loja cresce e mais clientes são atendidos.
+
+* **RNF03 - Usabilidade:** O sistema deve ser fácil de usar e intuitivo, com uma interface amigável que possa ser utilizada por todos os funcionários da loja.
+
+* **RNF04 - Confiabilidade:** O sistema deve ser confiável e ter alta disponibilidade, garantindo que não haja interrupções ou falhas que possam prejudicar a realização das ordens de serviço.
+
+* **RNF05 - Performance:** O sistema deve ter um bom desempenho, com tempo de resposta rápido para que o atendimento aos clientes seja eficiente e ágil.
+
+* **RNF06 - Manutenção:** O sistema deve ser fácil de manter e atualizar, permitindo a inclusão de novas funcionalidades sem impactar as já existentes.
+
+* **RNF07 - Responsividade:** O sistema deve ser responsivo, adaptando-se a diferentes tamanhos de tela, para que os usuários possam acessá-lo de qualquer dispositivo.
+
+* **RNF08 - Disponibilidade:** O sistema deve estar disponível 24 horas por dia, 7 dias por semana, para que os clientes possam acessá-lo a qualquer momento.
+
+* **RNF09 - Modo escuro:** O sistema deve ter um modo escuro para que os usuários possam utilizá-lo em ambientes com pouca luz. 
