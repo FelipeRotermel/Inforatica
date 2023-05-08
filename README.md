@@ -104,4 +104,4 @@ Isso tornaria o processo mais eficiente, eliminando a necessidade de papel e tor
 
 * **RNF08 - Disponibilidade:** O sistema deve estar disponível 24 horas por dia, 7 dias por semana, para que os clientes possam acessá-lo a qualquer momento.
 
-* **RNF09 - Modo escuro:** O sistema deve ter um modo escuro para que os usuários possam utilizá-lo em ambientes com pouca luz. 
+* **RNF09 - Página escura:** A página do sistema devera ser escura.
