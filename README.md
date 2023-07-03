@@ -77,14 +77,14 @@ Caso haja uma alteração no orçamento, o cliente deverá ser notificado e deve
 
 ## Entradas
 
-* **RF01 - Coleta de Dados Pessoais:** O sistema deve permitir a coleta dos dados pessoais do cliente, incluindo nome completo, telefone e endereço, a fim de criar uma ordem de serviço. **Dados necessários**: nome completo, telefone, email, CPF e endereço. **Usuários**: atendente.
+* **RF01 - Cadastro de Cliente:** O sistema deve permitir a coleta dos dados pessoais do cliente, incluindo nome completo, telefone e endereço, a fim de criar uma ordem de serviço. **Dados necessários**: nome completo, telefone, email, CPF e endereço. **Usuários**: atendente.
 
 * **RF02 - Inserção de Dados na O.S.:** O sistema deve permitir a inserção dos dados do problema relatado pelo cliente. **Dados necessários**: descrição do problema. **Usuários**: atendente.
 
-* **RF03 - Identificação das Peças:** O sistema deve permitir que o técnico identifique e descreva as peças do computador/notebook na ordem de serviço. **Dados necessários**: nome ou modelo das peças. **Usuários**: técnicos.
+* **RF03 - Identificação das Peças:** O sistema deve permitir que o técnico identifique e descreva as peças do computador/notebook na ordem de serviço. **Dados necessários**: nome ou modelo das peças. **Usuários**: técnicos e gerente
 
 * **RF04 - Aprovação da abertura da ordem de serviço:**
-Após a assinatura do cliente, o andamento do repáro será iniciado.
+Após a aprovação e assinatura do cliente, o andamento do repáro será iniciado.**Dados necessários**: número da os. **Usuários**: atendente.
 
 <!-- * **RF05 - Assinatura do Cliente:** O sistema deve permitir que o cliente assine a ordem de serviço em papel impresso após a conclusão da O.S. **Dados necessários**: assinatura do cliente. **Usuários**: clientes. -->
 
@@ -92,19 +92,19 @@ Após a assinatura do cliente, o andamento do repáro será iniciado.
 
 * Autenticação de usuário.
 
-* **RF05 - Cancelamento do Orçamento:** O sistema deve permitir que o cliente cancele o orçamento em até 24 horas após a emissão, e que possa buscar o equipamento reparado na loja. **Dados necessários**: solicitação de cancelamento. **Usuários**: clientes.
+* **RF05 - Cancelamento do Orçamento:** O sistema deve permitir que o cliente cancele o orçamento em até 24 horas após a emissão, e que possa buscar o equipamento reparado na loja. **Dados necessários**: solicitação de cancelamento. **Usuários**: atendente.
 
 * **RF06 - Visita Domiciliar:** O sistema deve permitir a cobrança de uma taxa de R$ 50,00 para visita domiciliar em caso de recusa do orçamento pelo cliente. **Dados necessários**: valor da taxa e número da O.S.. **Usuários**: técnicos.
 
-* **RF07 - Atualização do Status:** O sistema deve permitir que os técnicos atualizem o status da ordem de serviço durante todo o processo de reparo, e que os clientes recebam as informações via WhatsApp, email ou site. **Dados necessários**: atualização do status da ordem de serviço. **Usuários**: técnicos.
+* **RF07 - Atualização do Status:** O sistema deve permitir que os técnicos atualizem o status da ordem de serviço durante todo o processo de reparo, e que os clientes recebam as informações via WhatsApp, email ou site. **Dados necessários**: atualização do status da ordem de serviço. **Usuários**: técnicos e gerente.
 
-* **RF08 - Finalização da O.S:** O sistema deve notificar o cliente quando o reparo estiver concluído, e informar o prazo para retirada do equipamento na loja. **Dados necessários**: notificação da finalização do reparo e prazo para retirada. **Usuários**: atendentes e clientes.
+* **RF08 - Finalização da O.S:** O sistema deve notificar o cliente quando o reparo estiver concluído, e informar o prazo para retirada do equipamento na loja. **Dados necessários**: notificação da finalização do reparo e prazo para retirada. **Usuários**: técnicos e gerente.
 
-* **RF09 - Garantia:** O sistema deve estabelecer uma garantia de 3 meses para a troca da peça ou revisão do problema. **Dados necessários**: prazo da garantia. **Usuários**: atendentes e clientes.
+* **RF09 - Garantia:** O sistema deve estabelecer uma garantia de 3 meses para a troca da peça ou revisão do problema. **Dados necessários**: prazo da garantia. **Usuários**: técnicos e gerente.
 
 ## Saídas
 
-* **RF10 - Relatórios:** O sistema deve gerar relatórios  para o dono da loja, contendo informações como gastos, lucro líquido, máquinas esperando peças, máquinas com reparo em andamento, máquinas esperando retirada e máquinas em garantia. **Dados necessários**: informações sobre gastos, lucro líquido, máquinas em diferentes estágios do processo e em garantia. **Usuários**: dono da loja.
+* **RF10 - Relatórios:** O sistema deve gerar relatórios  para o dono da loja, contendo informações como gastos, lucro líquido, máquinas esperando peças, máquinas com reparo em andamento, máquinas esperando retirada e máquinas em garantia. **Dados necessários**: informações sobre gastos, lucro líquido, máquinas em diferentes estágios do processo e em garantia. **Usuários**: gerente.
 
 # Requisitos Não Funcionais
 
