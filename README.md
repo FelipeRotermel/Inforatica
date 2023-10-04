@@ -42,7 +42,7 @@ A aplicação poderia permitir que o(a) atendente crie uma ordem de serviço com
 
 Os técnicos poderiam atualizar o status da ordem de serviço ao longo do processo de reparo, permitindo que o cliente acompanhe o status da reparação em tempo real.
 
-O sistema geraria um relatório de um período determinado, que somente o dono terá acesso. Esse relatório mostraria os seguintes dados: gastos, lucro líquido, máquinas esperando peças, máquinas com reparo em andamento, máquinas esperando retirada, máquinas em garantia.
+O sistema geraria um relatório de um período determinado, que somente o dono terá acesso. Esse relatório mostraria os seguintes dados: máquinas esperando peças, máquinas com reparo em andamento, máquinas esperando retirada, máquinas em garantia.
 
 Isso tornaria o processo mais eficiente, eliminando a necessidade de papel e tornando a gestão de ordens de serviço mais organizada, rastreável e eficaz.
 
@@ -71,8 +71,6 @@ Caso haja uma alteração no orçamento, o cliente deverá ser notificado e deve
 
 * **RN11 - Garantia:** A garantia será de 3 meses para a troca da peça ou revisão do problema.
 
-* **RN12 - Relatórios periódicos:** Relatórios serão gerados periodicamente para o dono da loja, contendo informações como gastos, lucro líquido, máquinas esperando peças, máquinas com reparo em andamento, máquinas esperando retirada e máquinas em garantia.
-
 # Requisitos Funcionais
 
 ## Entradas
@@ -85,8 +83,6 @@ Caso haja uma alteração no orçamento, o cliente deverá ser notificado e deve
 
 * **RF04 - Aprovação da abertura da ordem de serviço:**
 Após a aprovação e assinatura do cliente, o andamento do repáro será iniciado.**Dados necessários**: número da os. **Usuários**: atendente.
-
-<!-- * **RF05 - Assinatura do Cliente:** O sistema deve permitir que o cliente assine a ordem de serviço em papel impresso após a conclusão da O.S. **Dados necessários**: assinatura do cliente. **Usuários**: clientes. -->
 
 ## Processos
 
@@ -101,10 +97,6 @@ Após a aprovação e assinatura do cliente, o andamento do repáro será inicia
 * **RF08 - Finalização da O.S:** O sistema deve notificar o cliente quando o reparo estiver concluído, e informar o prazo para retirada do equipamento na loja. **Dados necessários**: notificação da finalização do reparo e prazo para retirada. **Usuários**: técnicos e gerente.
 
 * **RF09 - Garantia:** O sistema deve estabelecer uma garantia de 3 meses para a troca da peça ou revisão do problema. **Dados necessários**: prazo da garantia. **Usuários**: técnicos e gerente.
-
-## Saídas
-
-* **RF10 - Relatórios:** O sistema deve gerar relatórios  para o dono da loja, contendo informações como gastos, lucro líquido, máquinas esperando peças, máquinas com reparo em andamento, máquinas esperando retirada e máquinas em garantia. **Dados necessários**: informações sobre gastos, lucro líquido, máquinas em diferentes estágios do processo e em garantia. **Usuários**: gerente.
 
 # Requisitos Não Funcionais
 
@@ -123,5 +115,3 @@ Após a aprovação e assinatura do cliente, o andamento do repáro será inicia
 * **RNF07 - Responsividade:** O sistema deve ser responsivo, adaptando-se a diferentes tamanhos de tela, para que os usuários possam acessá-lo de qualquer dispositivo.
 
 * **RNF08 - Disponibilidade:** O sistema deve estar disponível 24 horas por dia, 7 dias por semana, para que os clientes possam acessá-lo a qualquer momento.
-
-* **RNF09 - Página escura:** A página do sistema deverá ter a opção de tela clara ou escura.
