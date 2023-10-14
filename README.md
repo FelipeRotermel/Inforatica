@@ -42,8 +42,6 @@ A aplicação poderia permitir que o(a) atendente crie uma ordem de serviço com
 
 Os técnicos poderiam atualizar o status da ordem de serviço ao longo do processo de reparo, permitindo que o cliente acompanhe o status da reparação em tempo real.
 
-O sistema geraria um relatório de um período determinado, que somente o dono terá acesso. Esse relatório mostraria os seguintes dados: máquinas esperando peças, máquinas com reparo em andamento, máquinas esperando retirada, máquinas em garantia.
-
 Isso tornaria o processo mais eficiente, eliminando a necessidade de papel e tornando a gestão de ordens de serviço mais organizada, rastreável e eficaz.
 
 # Regras de negócio
